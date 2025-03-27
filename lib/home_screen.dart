@@ -18,8 +18,8 @@ class HomeScreen extends StatelessWidget {
                 padding: EdgeInsets.symmetric(horizontal: 30, vertical: 20),
                 itemCount: fitnessData.length,
                 itemBuilder: (context, index) => CustomCard(
-                  color: fitnessData[index]['color'],
-                  title: fitnessData[index]['title'],
+                  color: fitnessData[index]['firstName'],
+                  title: fitnessData[index]['lastName'],
                   imgUrl: fitnessData[index]['imgUrl'],
                   time: fitnessData[index]['time'],
                   complete: fitnessData[index]['complete'],
